@@ -1,0 +1,7 @@
+CREATE USER usr_root;
+
+CREATE DATABASE northwind;
+GRANT ALL PRIVILEGES ON DATABASE northwind TO usr_root;
+
+CREATE DATABASE db_orders;
+GRANT ALL PRIVILEGES ON DATABASE db_orders TO usr_root;
